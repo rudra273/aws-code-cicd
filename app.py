@@ -2,7 +2,7 @@ from flask import Flask,render_template
 import socket
 
 app = Flask(__name__)
-#new
+#new addaed
 
 @app.route("/")
 def index():
