@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-sudo docker pull rudra12/simple-python-flask-app
+docker pull rudra12/simple-python-flask-app
 
 # Run the Docker image as a container
-sudo docker run -d -p 5000:5000 rudra12/simple-python-flask-app
+docker run -d -p 5000:5000 rudra12/simple-python-flask-app
